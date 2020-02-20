@@ -1,0 +1,112 @@
+@import "../../stylesheets/font";
+@import "../../stylesheets/mixins";
+
+.header-section__contianer {
+  @include setPadding(
+    $fs-16px !important,
+    $fs-32px !important,
+    $fs-16px !important,
+    $fs-32px !important
+  );
+  // box-shadow: 0rem 0px 0.15rem 0 #ddd;
+  position: fixed !important;
+  top: 0;
+  // background-color: #085774;
+  // background-image: linear-gradient(
+  //   to right top,
+  //   #005260,
+  //   #005268,
+  //   #0c5270,
+  //   #215076,
+  //   #344e79 !important
+  // );
+
+  z-index: 999;
+}
+.header-container {
+  // background: #085774;
+  // background-image: linear-gradient(
+  //   to right top,
+  //   #005260,
+  //   #005268,
+  //   #0c5270,
+  //   #215076,
+  //   #344e79 !important
+  // );
+  padding: 1rem 0;
+  position: fixed !important;
+  top: 0;
+  z-index: 99;
+}
+
+.navigation-container {
+  width: 14rem;
+  // background: #085774;
+  // background-image: linear-gradient(
+  //   to right top,
+  //   #005260,
+  //   #005268,
+  //   #0c5270,
+  //   #215076,
+  //   #344e79 !important
+  // );
+  min-height: 100%;
+  position: fixed !important;
+  //box-shadow: 0rem 0px 0.15rem 0 #ddd;
+}
+
+.navigation__collapse-container {
+  width: 4rem;
+  // background: #085774;
+  background-image: linear-gradient(
+    to right top,
+    #005260,
+    #005268,
+    #0c5270,
+    #215076,
+    #344e79 !important
+  );
+  height: 100vh;
+  position: fixed !important;
+}
+
+.menu__content-container {
+  margin-left: 14rem;
+  min-height: 100vh;
+}
+
+.menu__collapse-container {
+  margin-left: 4rem;
+  min-height: 100vh;
+}
+
+.common__icon-width {
+  color: #085774;
+  font-size: $fs-24px;
+}
+
+.header-collapse-width {
+  width: calc(100% - 4rem) !important;
+}
+
+.header-width {
+  width: calc(100% - 13rem) !important;
+}
+
+.notification-circle {
+  position: absolute;
+  width: $fs-10px;
+  height: $fs-10px;
+  background: red;
+  border-radius: 50%;
+  top: $fs-2px;
+  right: 0;
+}
+
+.user-profile-container {
+  width: $fs-25px;
+  height: $fs-25px;
+  border-radius: 50%;
+  border: $fs-1px solid gainsboro;
+  background-color: black;
+}

@@ -1,0 +1,42 @@
+@mixin setfontsize($size) {
+  font-size: $size;
+}
+
+@mixin setHeightAndWidth($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+@mixin setPadding($top, $right, $bottom, $left) {
+  padding-left: $left;
+  padding-bottom: $bottom;
+  padding-right: $right;
+  padding-top: $top;
+}
+
+@mixin setMargin($top, $right, $bottom, $left) {
+  margin-left: $left;
+  margin-bottom: $bottom;
+  margin-right: $right;
+  margin-top: $top;
+}
+
+@mixin setFont(
+  $font-weight,
+  $font-style,
+  $front-stretch,
+  $letter-spacing,
+  $text-align
+) {
+  font-weight: $font-weight;
+  font-style: $font-style;
+  font-stretch: $front-stretch;
+  letter-spacing: $letter-spacing;
+  text-align: $text-align;
+}
+
+@mixin setBtnColor($backgroundColor, $borderColor, $color) {
+  background-color: $backgroundColor;
+  border-color: $borderColor;
+  color: $color;
+}

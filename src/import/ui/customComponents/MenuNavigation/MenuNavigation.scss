@@ -1,0 +1,34 @@
+.nav-container {
+  display: block !important;
+  min-height: 100vh;
+  .nav-item {
+    font-size: 16px;
+    cursor: pointer;
+    // @include setFont(normal, normal, normal, normal, left);
+    .nav-link {
+      // font-family: $roboto-medium;
+      color: whitesmoke !important;
+      border-right: 4px solid transparent;
+    }
+    .nav-link:hover {
+      color: #ffffff !important;
+    }
+    .nav-link.active {
+      // font-family: $roboto-bold;
+      // background-color: $ghost-white;
+      color: #085774 !important;
+      border-right: 4px solid #085774;
+    }
+  }
+}
+.width-24px {
+  width: 1.5rem;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.padding-1px {
+  padding-bottom: 1px;
+}

@@ -1,0 +1,73 @@
+@import "./login/Login.scss";
+@import "./Navigation/Navigation.scss";
+.border-9rem {
+  border-radius: 9rem !important;
+}
+
+.orange-bg {
+  // background-color: #085774 !important;
+  background-image: linear-gradient(
+    to top,
+    #161657,
+    #19205f,
+    #1c2a66,
+    #21346d,
+    #273e74,
+    #264478,
+    #264b7c,
+    #27517f,
+    #205581,
+    #1a5983,
+    #125c84,
+    #0a6085
+  ) !important;
+}
+
+.orange-text {
+  color: #085774 !important;
+}
+
+// .gray-text {
+//   color: #711d11ad !important;
+// }
+.gray-text {
+  color: #344e79 !important;
+}
+
+.nav-link {
+  cursor: pointer !important;
+}
+.nav-link.active {
+  // color: #085774 !important;
+  color: #085774 !important;
+  // border-top: 1px solid #085774 !important;
+  // border-bottom: 1px solid #085774 !important;
+  // border-left: 5px solid white !important;
+  border-right: 5px solid white !important;
+  // border-top: 3px solid #711d11ad !important;
+  // border-radius: 5px;
+  font-weight: bold !important;
+}
+
+.btn:focus {
+  outline: none !important;
+  outline-offset: none !important;
+}
+
+.height-90 {
+  height: 90vh;
+}
+
+.nav-link {
+  color: white !important;
+}
+.nav-link.nav-link.active {
+  background-color: white !important;
+  color: #085774 !important;
+}
+
+.nav-link:hover {
+  // background-color: #296880 !important;
+  background-color: #506e9d !important;
+  color: white !important;
+}
